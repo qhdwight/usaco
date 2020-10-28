@@ -80,8 +80,9 @@ public class UsOpen2019SilverFencePlanning {
 		}
 
 		PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("fenceplan.out")));
-		pw.write(Integer.toString(bestPm));
-		System.out.println(bestPm);
+		String answer = Integer.toString(bestPm);
+		pw.write(answer);
+		System.out.println(answer);
 		pw.close();
 	}
 }

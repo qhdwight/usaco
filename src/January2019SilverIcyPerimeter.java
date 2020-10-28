@@ -84,9 +84,9 @@ public class January2019SilverIcyPerimeter {
 		Blob blob = blobs.values().stream().max(Blob::compareTo).get();
 
 		PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("perimeter.out")));
-		String f = String.format("%d %d", blob.a, blob.p);
-		pw.write(f);
-		System.out.println(f);
+		String answer = String.format("%d %d", blob.a, blob.p);
+		pw.write(answer);
+		System.out.println(answer);
 		pw.close();
 	}
 }
