@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class February2018SilverSnowBoots {
+public class February2018SilverSnowBootsDp {
 
 	private static class Boots {
 
